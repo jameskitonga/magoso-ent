@@ -15,6 +15,7 @@ export const slides = [
         description: "Get a African made dress",
         img: "https://images.pexels.com/photos/6192554/pexels-photo-6192554.jpeg?cs=srgb&dl=pexels-rodnae-productions-6192554.jpg&fm=jpg",
 
+
     },
     {
         name: "Beadwork",

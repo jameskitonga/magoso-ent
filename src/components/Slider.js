@@ -1,38 +1,71 @@
-import { SlideshowRounded } from "@mui/icons-material";
+import styled from "styled-components"
 import { slides } from "../data"
 
+const SliderContainer = styled.div`
+
+`
+const SliderItem = styled.div`
+
+`
+
+const ImageContainer = styled.div`
+
+`
 
 
+const Image = styled.div`
+
+`
+
+
+const SliderInfo = styled.div`
+
+`
+
+const SliderHeading = styled.h2`
+
+`
+
+const SliderDescription = styled.p`
+
+`
+const Button = styled.button`
+
+`
 
 
 const Slider = () => {
     return (
-        <div>
+        <SliderContainer>
 
             {
                 slides.map((slide, index) => {
                     return (
-                        <div>
-                            <div>
-                                <img src={slide.img} />
-                            </div>
+                        <SliderItem>
+                            <ImageContainer>
+                                <Image >
 
-                            <div>
-                                <h2>{slide.name}</h2>
-                                <p>{slide.description}</p>
-                                <button>Shop beadery</button>
-                            </div>
+                                    <img src={slide.img} />
+                                </Image>
+                            </ImageContainer>
+
+                            <SliderInfo>
+                                < SliderHeading>{slide.name}</ SliderHeading>
+                                <SliderDescription>{slide.description}</SliderDescription>
+                                <Button>Shop {slide.name}</Button>
+                            </SliderInfo>
 
 
 
-                        </div>
+
+                        </ SliderItem>
                     )
                 })
             }
 
 
 
-        </div>
+        </SliderContainer>
     )
 }
 export default Slider;
