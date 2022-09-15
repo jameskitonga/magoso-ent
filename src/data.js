@@ -4,6 +4,7 @@ export const slides = [
         description: "Africa made pot",
         img: "https://images.pexels.com/photos/2162938/pexels-photo-2162938.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-2162938.jpg&fm=jpg",
     },
+
     {
         name: " Sculpture",
         description: "Africa made weavery",
