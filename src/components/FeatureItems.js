@@ -1,16 +1,33 @@
+import styled from "styled-components";
+
+
+const FeatureItemsContainer = styled.div`
+box-shadow:1px 1px 4px light-grey;
+border:1px solid lightGrey;
+border-radius:5px;
+align-items:center;
+width:fit-content;
+display:flex;
+padding:1em;
+gap:1em;
+`
 
 
 
+const FeatureItemsText = styled.h3``
 
-const FeatureItems = () => {
+
+const FeatureItems = ({ text, icon, borderColor }) => {
     return (
-        <div>
+        <FeatureItemsContainer style={{ borderTop: `2px solid ${borderColor}` }}>
 
-            <p>This is a featureItems</p>
+            {icon}
+            < FeatureItemsText > {text}</FeatureItemsText >
 
 
 
-        </div>
+
+        </FeatureItemsContainer >
 
     )
 }
