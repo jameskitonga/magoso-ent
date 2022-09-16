@@ -1,11 +1,17 @@
 
+import styled from "styled-components";
+import FeatureItems from "./FeatureItems";
 
-const Feature = () => {
+
+
+const Features = () => {
     return (
         <div>
 
 
-
+            <FeatureItems />
+            <FeatureItems />
+            <FeatureItems />
 
 
 
@@ -15,4 +21,4 @@ const Feature = () => {
 
     )
 }
-export default Feature;
+export default Features;
