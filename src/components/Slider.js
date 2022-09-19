@@ -13,8 +13,7 @@ position:relative;
 
 const ImageContainer = styled.div`
 width:100%;
-height:100%;{
-                slides.map((slide, index) => {
+height:100%;
 `
 
 

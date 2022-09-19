@@ -30,7 +30,6 @@ export const slides = [
 
 ]
 
-
 ///categories
 
 
@@ -57,6 +56,11 @@ export const categories = [
     {
         name: "Decorations",
         img: "https://images.pexels.com/photos/716107/pexels-photo-716107.jpeg?cs=srgb&dl=pexels-sanketh-rao-716107.jpg&fm=jpg",
+    },
+    {
+        name: " Weaver",
+        img: "https://i.pinimg.com/originals/a9/e3/af/a9e3afedac479bfbf0cc8653307a713e.jpg ",
+
     },
 
 ]

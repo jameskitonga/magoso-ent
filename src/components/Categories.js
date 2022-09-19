@@ -3,7 +3,9 @@ import styled from "styled-components"
 
 
 
-const CategoryContainer = styled.div``
+const CategoryContainer = styled.div`
+
+`
 
 const CategoryText = styled.div``
 
