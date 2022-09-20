@@ -1,11 +1,14 @@
 import styled from "styled-components";
 import { categories } from "../data";
-
+const Container = styled.div`
+text-align:center;
+`
 
 const CategoryItemContainer = styled.div`
 display:flex;
 flex-wrap:wrap;
-
+width:70%;
+margin:0 auto;
 gap:1em;
 `
 
@@ -15,7 +18,7 @@ margin:0 auto;
 display:flex;
 justify-content:center;
 align-items:center;
-width:30%;
+ width:30%;
 position:relative;
 color:white;
 font-weight:bold;
@@ -49,49 +52,52 @@ font-family:san-serif;
 `
 
 const CategoryText = styled.h3`
-
+font-family:san-serif;
 
 
 `
-const CategoryHeading = styled.h2`
+const CategoryHeading = styled.h2`font-family:san-serif;
+
 `
 
 const CategoryItem = () => {
     return (
+        <Container>
+            <CategoryHeading>Browse categories</CategoryHeading>
 
-        <CategoryItemContainer>
-            <CategoryHeading>Broswe categories</CategoryHeading>
+            <CategoryItemContainer>
 
-            {
-                categories.map((category, index) => {
-                    return (
-
-
-                        <ImageContainer>
-                            <ImageContain>
-
-                                <Image src={category.img} />
-                            </ImageContain>
+                {
+                    categories.map((category, index) => {
+                        return (
 
 
-                            <CategoryInfo>
+                            <ImageContainer>
+                                <ImageContain>
+
+                                    <Image src={category.img} />
+                                </ImageContain>
 
 
-                                <CategoryText>{category.name}</CategoryText>
+                                <CategoryInfo>
 
 
-                            </CategoryInfo>
+                                    <CategoryText>{category.name}</CategoryText>
+
+
+                                </CategoryInfo>
 
 
 
-                        </ImageContainer>
+                            </ImageContainer>
 
 
-                    )
+                        )
 
-                })
-            }
-        </CategoryItemContainer>
+                    })
+                }
+            </CategoryItemContainer>
+        </Container>
 
 
     )

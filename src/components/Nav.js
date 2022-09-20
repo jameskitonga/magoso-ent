@@ -4,7 +4,9 @@ import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 const NavContainer = styled.nav`
-
+width:100%;
+background:purple;
+color:cyan;
 `
 const Container = styled.div`
 width:80%;
@@ -29,11 +31,13 @@ const Logo = styled.h1`
 
 `
 const SearchContainer = styled.div`
-border:2px solid black;
+border:2px solid lightGrey;
 border-radius:5px;
 height:fit-content;
 display:flex;
 align-items:center;
+background:white;
+color:black;
 
 
 `
@@ -47,11 +51,12 @@ display:flex;
 gap:2em;
 list-style:none;
 cursor:pointer;
-
+font-family:san-serif;
+font-size:1.2rem;
+color:cyan;
 
 `
 const NavLi = styled.li`
-
 `
 
 
@@ -75,7 +80,7 @@ const Nav = () => {
                                 <NavLi>Contact</NavLi>
                                 <NavLi>LogIn/Register</NavLi>
                                 <NavLi><Badge badgeContent={0} color="primary">
-                                    <AddShoppingCartIcon color="action" />
+                                    <AddShoppingCartIcon color="cyan" />
                                 </Badge></NavLi>
                             </NavUl>
                         </RightNav>
@@ -87,4 +92,4 @@ const Nav = () => {
 
 
 }
-export default Nav
+export default Nav;

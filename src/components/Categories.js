@@ -4,10 +4,10 @@ import styled from "styled-components"
 
 
 const CategoryContainer = styled.div`
-
+width:100%;
 `
 
-const CategoryText = styled.div``
+
 
 
 

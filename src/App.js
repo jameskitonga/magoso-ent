@@ -6,8 +6,8 @@ function App() {
     <>
 
       <Home />
-      {/* <Contact /> */}
-      {/* <About /> */}
+
+
     </>
 
 
