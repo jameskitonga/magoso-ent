@@ -78,14 +78,14 @@ gap:.5em;
 
 const BestsellersItems = () => {
     return (
-        <BestsellerContainer>
+        <BestsellerContainer>                                   
 
             <BestsellersHeading>Best Seller</BestsellersHeading>
             <Container>
                 {
                     bestsellers.slice(0, 3).map((bestseller, index) => {
                         return (
-                            <InnerBestsellerContainer>
+                            <InnerBestsellerContainer key={index}>
 
                                 <BestsellersImageContainer>
                                     <Image src={bestseller.img} />

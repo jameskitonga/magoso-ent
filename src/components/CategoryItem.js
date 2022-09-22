@@ -72,7 +72,7 @@ const CategoryItem = () => {
                         return (
 
 
-                            <ImageContainer>
+                            <ImageContainer key={index}>
                                 <ImageContain>
 
                                     <Image src={category.img} />

@@ -1,18 +1,18 @@
 export const slides = [
     {
-        name: "pottery",
+        name: "Pottery",
         description: "Africa made pot",
         img: "https://images.pexels.com/photos/2162938/pexels-photo-2162938.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-2162938.jpg&fm=jpg",
     },
 
     {
         name: " Sculpture",
-        description: "Africa made weavery",
+        description: "African made sculpture",
         img: "https://images.pexels.com/photos/134402/pexels-photo-134402.jpeg?cs=srgb&dl=pexels-george-becker-134402.jpg&fm=jpg",
     },
     {
-        name: "dress",
-        description: "Get a African made dress",
+        name: "Dress",
+        description: "Get a masaai made kitenge dress",
         img: "https://images.pexels.com/photos/6192554/pexels-photo-6192554.jpeg?cs=srgb&dl=pexels-rodnae-productions-6192554.jpg&fm=jpg",
 
 
@@ -100,3 +100,11 @@ export const bestsellers = [
 
 ]
 
+export const login= [
+{
+    name: "Kitenge dress",
+        img: "https://images.pexels.com/photos/6192554/pexels-photo-6192554.jpeg?cs=srgb&dl=pexels-rodnae-productions-6192554.jpg&fm=jpg",
+            amount: 2000,
+
+    },
+]

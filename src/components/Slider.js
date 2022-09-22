@@ -117,7 +117,7 @@ const Slider = () => {
             {
                 slides.map((slide, index) => {
                     return (
-                        <SliderItem style={{ transform: `translateX(${activeIndex * -100}vw)` }}>
+                        <SliderItem key={index} style={{ transform: `translateX(${activeIndex * -100}vw)` }}>
                             <ArrowNext direction="left" onClick={() => handleSlide("left")}>
 
                                 <KeyboardArrowLeftIcon />
